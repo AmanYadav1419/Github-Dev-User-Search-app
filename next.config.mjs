@@ -1,4 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+/** @format */
 
-export default nextConfig;
+// module.exports tha 
+export const images = {
+    remotePatterns: [
+        {
+            protocol: "https",
+            hostname: "avatars.githubusercontent.com",
+        }
+    ]
+};
