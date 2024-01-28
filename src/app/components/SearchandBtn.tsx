@@ -10,7 +10,7 @@ type Props = {
 
 export default function SearchandBtn(props: Props) {
   return (
-    <form onSubmit={props.onSubmit} className='flex items-center h-full gap-2 w-full shadow-md focus-within:ring-2 dark:focus-within:ring-gray-200 focus-within:ring-slate-800 p-2 rounded-lg dark:bg-slate-800 bg-white'>
+    <form onSubmit={props.onSubmit} className='flex items-center gap-2 w-full shadow-md focus-within:ring-2 dark:focus-within:ring-gray-200 focus-within:ring-slate-800 p-2 rounded-lg dark:bg-slate-800 bg-white'>
         <section className='flex items-center w-full h-full gap-2'>
             {/* search icon */}
             <IoSearch className='text-2xl text-blue-500' />
